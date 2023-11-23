@@ -1,0 +1,73 @@
+toggleMenu:
+  other: Skift menu
+
+darkMode:
+  other: Mørk tilstand
+
+list:
+  page:
+    one: "{{ .Count }} side"
+    other: "{{ .Count }} sider"
+
+  section:
+    other: Sektion
+
+  subsection:
+    one: Underafsnit
+    other: Underafsnit
+
+article:
+  back:
+    other: Tilbage
+
+  tableOfContents:
+    other: Indholdsfortegnelse
+
+  relatedContent:
+    other: Relateret indhold
+
+  lastUpdatedOn:
+    other: Sidst opdateret den
+
+  readingTime:
+    one: "{{ .Count }} minuts læsning"
+    other: "{{ .Count }} minutters læsning"
+
+notFound:
+  title:
+    other: Ikke fundet
+
+  subtitle:
+    other: Denne side findes ikke
+
+widget:
+  archives:
+    title:
+      other: Arkiver
+
+    more:
+      other: Mere
+
+  tagCloud:
+    title:
+      other: Tags
+  categoriesCloud:
+    title:
+      other: Kategorier
+
+search:
+  title:
+    other: Søg
+
+  placeholder:
+    other: Skriv noget...
+
+  resultTitle:
+    other: "#PAGES_COUNT sider (#TIME_SECONDS sekunder)"
+
+footer:
+  builtWith:
+    other: Bygget med {{ .Generator }}
+
+  designedBy:
+    other: Tema {{ .Theme }} designet af {{ .DesignedBy }}
