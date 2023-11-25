@@ -1,26 +1,4 @@
 <footer class="article-footer">
-	<div id="discourse-comments"></div>
-	<meta name="discourse-username" content="test" />
-
-	<script type="text/javascript">
-		DiscourseEmbed = {
-			discourseUrl: "http://127.0.0.1:4200/",
-			discourseEmbedUrl:
-				"http://localhost:1313/p/den-komplette-guide-til-tinder-del-1/",
-			// className: 'CLASS_NAME',
-		};
-
-		(function () {
-			var d = document.createElement("script");
-			d.type = "text/javascript";
-			d.async = true;
-			d.src = DiscourseEmbed.discourseUrl + "javascripts/embed.js";
-			(
-				document.getElementsByTagName("head")[0] ||
-				document.getElementsByTagName("body")[0]
-			).appendChild(d);
-		})();
-	</script>
 	{{ partial "article/components/tags" . }} {{ if and
 	(.Site.Params.article.license.enabled) (not (eq .Params.license false)) }}
 	<section class="article-copyright">
